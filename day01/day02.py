@@ -1,0 +1,3 @@
+
+def mai():
+    print('nihao')
