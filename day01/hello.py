@@ -24,6 +24,9 @@ class FooClass(object):
     def add(self):
         return self.a + self.b
 
+    def jian(c,d):
+        return c+d
+
 
 def add_fun(a, b):
     '''
@@ -54,7 +57,9 @@ def paixu(list):
     for i in range(0, len(list), 1):
         print(list, i)
         for j in range(0, i, 1):
-            if list[j] <= list[j + 1]:
+            当前数字 = list[j]
+            后一位数字 = list[j + 1]
+            if 当前数字 <= 后一位数字:
                 continue
             temp = list[j]
             list[j] = list[j + 1]
@@ -66,6 +71,7 @@ def paixu(list):
 
 def chengfabiao():
     for i in range(1, 10, 1):
+
         for j in range(1, i + 1, 1):
             print(str(i) + '*' + str(j) + '=' + str(i * j), end=' ')
         print(' ')
@@ -100,9 +106,9 @@ def jidan2():
 
 if __name__ == '__main__':
     list = [5, 12, 2, 1, 4, 66]
-    # paixu(list)
+    paixu(list)
     # chengfabiao()
-    jidan2()
+    # jidan2()
 
     # print('Holle Word')
     # debug_demo()

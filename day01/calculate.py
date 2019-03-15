@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
         input_a = input('请输入第一个参数 a: ')
         input_a = int(input_a)
-        print('收到参数a:',input_a)
+        print('收到参数a:', input_a)
 
         input_b = input('请输入第二个参数 b: ')
         input_b = int(input_b)
@@ -58,14 +58,14 @@ if __name__ == '__main__':
         print('运算结果: ')
 
         if menu_str == '1':
-            print(add(input_a,input_b))
+            print(add(input_a, input_b))
             continue
         if menu_str == '2':
-            print(sbutract(input_a,input_b))
+            print(sbutract(input_a, input_b))
             continue
         if menu_str == '3':
-            print(multiply(input_a,input_b))
+            print(multiply(input_a, input_b))
             continue
         if menu_str == '4':
-            print(divide(input_a,input_b))
+            print(divide(input_a, input_b))
             continue
